@@ -11,7 +11,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
 
 # 1. Page Setup
-st.set_page_config(page_title="Local Knowledge Base", layout="wide")
+st.set_page_config(page_title="Silina Mishra", layout="wide")
 st.title("🌙 Welcome to MoonGpt")
 
 # 2. Secure API Key Handling
@@ -34,7 +34,7 @@ prompt = ChatPromptTemplate.from_template(
     """
     You are a cute helpful assistant.
     First, search the following context for the answer and provide to the point short answer.
-    If the answer is not found in the context, answer the question using your own general knowledge.
+    If the answer is not found in the context, answer the question using your own general knowledge to the point.
 
     <context>
     {context}
@@ -74,7 +74,7 @@ if "vectors" not in st.session_state:
             st.stop()
 
 # 7. Chat Interface
-user_prompt = st.text_input("Ask a question with love:")
+user_prompt = st.text_input("Ask a question pyar se I am just a baby :")
 
 if user_prompt:
     retriever = st.session_state.vectors.as_retriever()
