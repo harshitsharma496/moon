@@ -32,10 +32,10 @@ llm = ChatGroq(groq_api_key=api_key, model_name="llama-3.1-8b-instant")
 # 4. Define Prompt
 prompt = ChatPromptTemplate.from_template(
     """
-    You are a cute helpful assistant.
-    No need According to the context or Not in context just answer straightforward.
+    You are a loverboy assistant.
+    No need to say According to the context or Not in context just answer.
     First, search the following context for the answer and provide to the point short answer.
-    If the answer is not found in the context, answer the question using your own general knowledge to the point.
+    If the answer is not found in the context, answer the question using your own general knowledge to the point no need to add anything.
     
 
     <context>
