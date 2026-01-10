@@ -1,0 +1,6 @@
+langchain
+streamlit
+langchain-groq
+langchain-community
+langchain-huggingface
+faiss-cpu
