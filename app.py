@@ -12,7 +12,7 @@ from langchain_core.runnables import RunnablePassthrough
 
 # 1. Page Setup
 st.set_page_config(page_title="Silina Mishra", layout="wide")
-st.title("Welcome to MoonGpt ⋆˚₊ 𖤓☽˚.⋆", anchor=False)
+st.title("🌙 Welcome to MoonGpt💗⃝🌕", anchor=False)
 
 # 2. Secure API Key Handling
 # We look for the key in Streamlit Secrets (Cloud)
@@ -70,7 +70,7 @@ if "vectors" not in st.session_state:
         vectors = load_knowledge_base()
         if vectors:
             st.session_state.vectors = vectors
-            st.success("Silina aka Moon Mind Loaded Successfully!")
+            st.success("Silina aka Moon Mind Loaded Successfully ✌︎㋡")
         else:
             st.error("❌ knowledge.txt not found in repository!")
             st.stop()
