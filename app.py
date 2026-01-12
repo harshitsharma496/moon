@@ -70,7 +70,7 @@ if "vectors" not in st.session_state:
         vectors = load_knowledge_base()
         if vectors:
             st.session_state.vectors = vectors
-            st.success("Moon Mind Loaded Successfully!")
+            st.success("Silina Mishra aka 🌙ྀིྀི Mind Loaded Successfully!")
         else:
             st.error("❌ knowledge.txt not found in repository!")
             st.stop()
