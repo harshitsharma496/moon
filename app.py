@@ -76,7 +76,7 @@ if "vectors" not in st.session_state:
             st.stop()
 
 # 7. Chat Interface
-user_prompt = st.text_input("Shoot question but pyar se I am just a baby:")
+user_prompt = st.text_input("Shoot question but pyar se I am just a baby 💐🌷🌹🌸🌺 :")
 
 if user_prompt:
     retriever = st.session_state.vectors.as_retriever()
