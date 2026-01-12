@@ -12,7 +12,7 @@ from langchain_core.runnables import RunnablePassthrough
 
 # 1. Page Setup
 st.set_page_config(page_title="Silina Mishra", layout="wide")
-st.title("🌙ྀིྀི Welcome to MoonGpt", anchor=False)
+st.title("Welcome to MoonGpt ⋆˚₊ 𖤓☽˚.⋆", anchor=False)
 
 # 2. Secure API Key Handling
 # We look for the key in Streamlit Secrets (Cloud)
