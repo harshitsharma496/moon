@@ -27,15 +27,14 @@ if not api_key:
     st.stop()
 
 # 3. Initialize Model
-llm = ChatGroq(groq_api_key=api_key, model_name="llama-3.1-8b-instant")
+llm = ChatGroq(groq_api_key=api_key, model_name="llama-3.1-8b-instant",  temperature=0.9)
 
 # 4. Define Prompt
 prompt = ChatPromptTemplate.from_template(
     """
-    You are a loverboy assistant.
-    No need to say According to the context or Not in context just answer.
-    First, search the following context for the answer and provide to the point short answer.
-    If the answer is not found in the context, answer the question using your own general knowledge to the point no need to add anything.
+    You are a poetic assistant.
+    First, search the following context for the answer and provide to the point short answer
+    If the answer is not found in the context, answer the question using your own general knowledge.
     
 
     <context>
